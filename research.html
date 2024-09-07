@@ -104,17 +104,6 @@
       </header>
       <section>
 
-    <!-- No R&Rs or WPs at the moment
-    <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers under Revision to Resubmit</h2>
-    <p style="margin:0"> Coming soon. <br> <br>
-
-    <hr>
-
-    <h2><a id="recent-papers-updated" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers</h2>
-    <p style="margin:0"> Coming soon. <br> <br>
-
-    <hr>
-    -->
 
     <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Published</h2>
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://xingkongxiaxia.github.io/weiqi-shao.github.io/research/SPLIT(SIGIR-AP2023-One of the SIGIR series conferences)-First Author.pdf">Sequential Recommendation with User Evolving Preference
@@ -158,6 +147,69 @@ metrics of Precision, Recall, NDCG and MRR, respectively. </p></div>
       Other versions
     </button>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://ask.qcloudimg.com/draft/9008109/irmp1wu7az.pdf">CoRR 1</a> (2021) <br> <a href="https://ask.qcloudimg.com/draft/9008109/akblrpls6a.pdf">CoRR 2</a> <br> <a href="https://arxiv.org/abs/2112.02812">arXiv 1</a>(2021) <br> <a href="https://arxiv.org/abs/2112.02787">arXiv 2</a>(2021) </p></div><br>
+
+
+
+
+
+
+
+
+<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://xingkongxiaxia.github.io/weiqi-shao.github.io/research/MultiagentRLRS(IJCNN2023 CCF-C)-Co Creation.pdf">A Multi-Agent Framework for Recommendation
+with Heterogeneous Sources
+Decomposition</a> <br> with <a href="https://scholar.google.com/citations?user=yDf4288AAAAJ&hl=zh-CN"> Yabin Zhang</a> <a href="https://gsai.ruc.edu.cn/chenxu">Xu Chen</a>, <a href="https://yalidu.github.io/">Yali Du</a>, <a href="https://ieeexplore.ieee.org/author/37089965761">Xiaoxiao Xu</a>, <a href="https://scholar.google.com/citations?user=KI7sbM4AAAAJ&hl=zh-CN&oi=ao">Dong Zheng</a>, <a href="https://people.ucas.ac.cn/~changhuapei">Changhua Pei</a> , and <a href="https://ieeexplore.ieee.org/author/37089967903">Shuai Zhang</a> <a href="https://scholar.google.com/citations?user=9o5swhQAAAAJ&hl=zh-CN&oi=ao">Peng Jiang</a> <a href="https://scholar.google.com/citations?user=PXO4ygEAAAAJ&hl=zh-CN&oi=sra">Kun Gai</a>  <br> Accepted, <i>Conference on Information Retrieval in the Asia Pacific</i> (updated Nov. 28, 2023) <br><button class="accordion">
+      Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> With the ever prospering of the web technologies, there is a common need to make recommendations from
+heterogeneous sources, such as recommending products and
+advertisements together on the e-commerce websites. People
+usually solve such recommendation problem by a two-stage
+paradigm, where the first stage is generating candidates from
+each source, and the second one is aggregating and ranking
+the generated heterogeneous candidates to produce the final
+results. While existing models have achieved many successes, they
+mostly optimize the above two stages separately, where the user
+preferences can only be used to supervise the second stage, while
+for the first one, there is no signal to tell whether the generated
+candidates are accurate enough to cover the user preference. To
+solve the above problem, in this paper, we design a multi-agent
+framework to jointly optimize the above two stages. In specific,
+suppose there are N sources in our problem, then we deploy N+1
+agents, where the first N agents correspond one-to-one with the
+sources, aiming to select the sources-specific candidates, and the
+last agent is designed to aggregate the candidates from different
+sources for the final recommendation. All the agents play a
+cooperative game, aiming to maximize the rewards revealing
+user preferences. We implement our idea based on the Deep Qnetwork, where we design a decomposable reward to enhance
+the training efficiency. We adapt our model to a real-world
+recommendation problem abstracted from a famous short video
+platform–Kuaishou.com. We conduct extensive experiments to
+demonstrate the effectiveness of our model. </p></div>
+    <p style="margin:0"><button class="accordion">
+      Replication files
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://drive.google.com/drive/folders/1QUMWEkZ1UfwtXLmwyYHBMU8-oz0GPHAA">Data repository</a> <br>  </p></div>
+    <p style="margin:0"><button class="accordion">
+      BibTeX citation
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <pre> <code>
+@inproceedings{zhang2023multi,
+  title={A Multi-Agent Framework for Recommendation with Heterogeneous Sources},
+  author={Zhang, Yabin and Shao, Weiqi and Chen, Xu and Du, Yali and Xu, Xiaoxiao and Zheng, Dong and Pei, Changhua and Zhang, Shuai and Jiang, Peng and Gai, Kun},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2023},
+  organization={IEEE}
+}
+</code> </pre> </p></div>
+ 
+
+
+
+
+
+
+
 
 
     <hr>
